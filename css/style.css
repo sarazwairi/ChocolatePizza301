@@ -1,71 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 body section{
     width:960px;
-    font-family: serif;
+
     margin: auto;
-    background-color: gray;
 }
 body{
     display: grid;
     grid-template-rows: 100px 1fr 100px;
+
 }
 header{
     margin-bottom: 20px;
-    background-color: white;
 }
-header div {
+header div  {
     display: inline-block;
+    
 }
-header ul{
+header ul {
     float: right;
     margin-top: 2em;
     margin-left: 10px;
+
 }
 header ul li{
     display: inline-block;
 }
-header ul li.fliclog {
-    margin-left:10px;
+header ul li .fliclog{
+
+    margin-left: 10px;
+}
+#logoname{
+    font-family:  "Yellowtail", cursive;
+    font-size: 38px;
+    font-weight: 600;
+    
 }
 
-#logoname{
-    font-family: 'Dancing Script', cursive;
-    font-size:30px;
-    margin-bottom:-20px;
-}
 main{
-    background-color: white;
     padding-bottom: 20px;
     padding-top: 30px;
 }
 footer{
-    background-color: white;
-    padding-bottom: 20px;
-    padding-top: 30px;
+    margin-top: 15px;
 }
 main #hero{
     width: 100%;
 }
-main #print{
-    margin-left: 950px;
+span#print1{
+    margin-left: 900px;
+    color: darkgray;
 }
+
 main p{
     text-indent: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 main #divofdivs{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-image: url('list-bg.png');
-    margin-bottom: px;
+    margin-top: 30px;
+    width: auto;
+    justify-content: space-around;
+    box-shadow: 0px 5px 5px slategrey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style-type: none;
+    display: flex;
 }
 footer{
     display: grid;
     grid-template-rows: 150px 2px 150px;
 }
-footer #haha{
-background-color: gray;
 
-}
 #top{
     display: grid;
     grid-template-columns: 70px 1fr 250px;
@@ -73,14 +81,17 @@ background-color: gray;
 #top button{
     width: 200px;
     height: 50px;
-    background-color: red;
+    background-color:#a35323;
     margin-top: 10px;
     color: white;
 }
-#small img {
-    margin-left: 50%;
-    margin-top: -15px;
-}
+hr.style11{
+    height: 12px;
+    background: url('hr-img.png') repeat-x 0 0; 
+    border: 0;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
 #bottom {
 text-align: center;
 margin-top: 30px;
@@ -89,4 +100,23 @@ margin-top: 30px;
 
 .gray{
     color: gray;
+}
+#top div p{
+    font-size:18px;
+    margin:10px 10px;
+    margin-left: 40px;
+}
+#top div p:first-child{
+    font-weight: bold;
+}
+footer #top img{
+    margin-top: 30px;
+}
+footer img{
+   position: relative;
+   bottom: 27px;
+   margin-left: 50%;
+}
+#bottom{
+    color: grey;
 }
